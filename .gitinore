@@ -1,0 +1,14 @@
+# Simulation outputs
+*.raw
+*.log
+
+# Temporary files
+*.swp
+*.bak
+*~
+__pycache__/
+.DS_Store
+
+# Local PDK copies
+pdk/
+PDK/
