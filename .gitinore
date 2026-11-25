@@ -1,3 +1,4 @@
+
 # Simulation outputs
 *.raw
 *.log
@@ -12,3 +13,6 @@ __pycache__/
 # Local PDK copies
 pdk/
 PDK/
+
+#Identifier Files
+*:Zone.Identifier
