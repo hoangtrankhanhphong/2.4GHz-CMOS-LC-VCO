@@ -24,7 +24,20 @@ The objective is to design an oscillator circuit that meets the initial specific
 | Figure of Merit | ≥ 172 dB |
 | Output Load | 50 fF/node |
 > These are the initial specifications set up for the design, prior to any improvements or optimizations.
-
-
+### Baseline LC Oscillator
+Prior to designing LC-VCO, i decided to build the LC oscillator ciruit first. Upon completion, the measured parameters proved quite promising.
+#### Schematic
+![LC Oscillator](png/lc_oscillator.png)
+#### Plots
+![Startup time](png/startup_time.png) ![Waveform](png/freq_tran.png)
+#### LCO's measured specifications
+| Parameter | Value |
+|---|---|
+| Supply Voltage |1.5 V |
+| Power Consumption | ≤ 1.38 mW (exclude Pbias) |
+| Center Frequency | 2.44 GHz |
+| Startup Time | ≤ 50 ns |
+| Output Load | 50 fF/node |
+**Note:** The inductor quality factor is estimated as $Q_L = \frac{2\pi fL}{R_s} = \frac{2\pi \times 2.44\,\text{GHz} \times 2.8\,\text{nH}}{4\,\Omega}$, yielding approximately 10.7 at 2.44 GHz 
 
 
