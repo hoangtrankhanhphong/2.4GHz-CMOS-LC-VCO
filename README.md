@@ -34,10 +34,12 @@ Prior to designing LC-VCO, i decided to build the LC oscillator ciruit first. Up
 | Parameter | Value |
 |---|---|
 | Supply Voltage |1.5 V |
-| Power Consumption | ≤ 1.38 mW (exclude Pbias) |
+| Power Consumption | ≤ 1.38 mW (excluded $P_bias$) |
 | Center Frequency | 2.44 GHz |
-| Startup Time | ≤ 50 ns |
+| Startup Time | 40 ns |
 | Output Load | 50 fF/node |
+
 **Note:** The inductor quality factor is estimated as $Q_L = \frac{2\pi fL}{R_s} = \frac{2\pi \times 2.44\,\text{GHz} \times 2.8\,\text{nH}}{4\,\Omega}$, yielding approximately 10.7 at 2.44 GHz 
+
 
 
