@@ -29,12 +29,14 @@ Prior to designing LC-VCO, i decided to build the LC oscillator ciruit first. Up
 #### Schematic
 ![LC Oscillator](png/lc_oscillator.png)
 #### Plots
-![Startup time](png/startup_time.png) ![Waveform](png/freq_tran.png)
+| Waveform | Startup Time |
+| :---: | :---: |
+| ![Waveform](png/freq_tran.png) | ![Startup time](png/startup_time.png) |
 #### LCO's measured specifications
 | Parameter | Value |
 |---|---|
-| Supply Voltage |1.5 V |
-| Power Consumption | ≤ 1.38 mW (excluded $P_bias$) |
+| Supply Voltage |1.5 V &nbsp;&nbsp;&nbsp; |
+| Power Consumption | ≤ 1.38 mW (excluded $P_{bias}$) |
 | Center Frequency | 2.44 GHz |
 | Startup Time | 40 ns |
 | Output Load | 50 fF/node |
